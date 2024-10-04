@@ -5,5 +5,5 @@ export default function createEmployeesObject(departmentName, employees) {
   if (!Array.isArray(employees)) {
     throw new Error('employees must be a type array');
   }
-  return { [departmentName] : employees };
+  return { [departmentName]: employees };
 }
